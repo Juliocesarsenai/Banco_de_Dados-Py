@@ -10,7 +10,7 @@ db_user="julio"
 db_password="julio"
 db_host="localhost"
 db_port="3306"
-db_name="meu_banco_de_dados"
+db_name="meu_banco"
 #DATABASE_URL=f"mysql + pmysql://usuario:senha@host:porta/nome_bd"
 
 DATABASE_URL=f"mysql+pymysql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
